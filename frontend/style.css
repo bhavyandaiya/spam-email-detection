@@ -1,7 +1,42 @@
 body{
-    background-color: pink;
+    background-color: lightsteelblue;
 }
 
 .header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+
+    height: 100px;
+    padding-left: 40px;
+    padding-right: 30px;
+
+    /*temp*/
     border: 2px solid black;
+}
+
+.header a{
+    text-decoration: none;
+    color: black;
+}
+
+.header .header-text-Spammy{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.socials{
+    margin-left: auto;
+    display: flex;
+    gap: 12px;
+}
+
+.socials img{
+    width: 25px;
+    height: 25px;
+}
+
+.socials .header-text-Account{
+    font-size: 20px;
 }
